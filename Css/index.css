@@ -1,0 +1,205 @@
+body{
+    background-image: linear-gradient(to right,rgb(221, 38, 69) 20%, red 40%,orange 80%, rgb(255, 221, 0) 100%);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 560px;
+}
+.body
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.background{
+    background-image: linear-gradient(to right,rgb(221, 38, 139) 20%, rgb(255, 0, 179) 40%,rgb(136, 0, 255) 80%, rgb(0, 30, 255) 100%);
+    display:flex;
+    justify-content: center;
+    align-items:end;
+    height: 280px;
+    width: 700px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 3px rgba(0, 0, 0, 0.5);
+}
+.sub{
+    background-color: black;
+    color: white;
+    display:flex;
+    text-align: center;
+    flex-direction: column;
+    width: 400px;
+    height: 190px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 5px 5px 3px  rgba(0, 0, 0, 0.5);
+    
+}
+form{
+    margin-top: -15px;
+    
+}
+form input{
+    border: 2px solid rgb(164, 130, 238);
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    width: 180px;
+    margin: 2px;
+}
+#email{
+    margin-top: -10px;
+}
+img{
+    position: absolute;
+    width: 22px;
+    top: 98px;
+    right: 107px;
+    /* background-color: lightgreen; */
+    border: 2px solid rgb(164, 130, 238);
+    border-radius: 15px;
+}
+#email::placeholder{
+    text-align: center;
+}
+#pass::placeholder{
+    text-align: center;
+}
+form h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 14px;
+}
+#btn{
+    border: 2px solid red;
+    background-color: black;
+    color:darkgoldenrod;
+    padding: 8px;
+    border-radius: 20px;
+    font-size: medium;
+    margin-top: 5px;
+    width: 135px;
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: 7px;
+}
+#h6{
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+
+
+
+.container1{
+    width: 350px;
+    display:block;
+    text-align:center;
+    margin-right: 50px;
+}
+.container1 h1{
+    color: white;
+    text-shadow:2.5px 2.5px rgba(0, 0, 0, 0.5);
+    margin-bottom: -22px;
+    letter-spacing: 17px;
+}
+.container1 h6{
+    margin-bottom: 15px;
+}
+.container1 input{
+    padding: 4px;
+    background-color: rgb(173, 172, 172);
+    width: 117px;
+    font-weight: 700;
+    border: 0px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px;
+    cursor: pointer;
+    letter-spacing: 3px;
+    
+}
+
+.container2{
+ width: 410px;
+ margin-left: 50px;
+ border-radius: 7px;
+ padding: 20px;
+ background-color: rgb(221, 188, 148);
+ box-shadow: 4px 4px 3px;
+}
+.container2 .form1{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+}
+.container2 .form1 input{
+    border: 1.5px solid black;
+    margin: 3px;
+    box-shadow: 2px 2px 1px  rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+}
+.form2{
+    padding: 10px;
+}
+.form2 label{
+    font-weight: 700;
+}
+.form2 .finput{
+    display: flex;
+    justify-content: center;
+}
+/* .form2 .finput input{
+    background-color: rgb(221, 38, 69) ;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    margin: 35px;
+    margin-top: 5px;
+
+} */
+/* .form2 .finput ::placeholder{
+    color: white;
+} */
+.form2 select{
+    background-color: rgb(221, 38, 69) ;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    margin: 35px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    color: white;
+}
+.form2 option{
+    color: white;
+}
+.form2 .radio{
+   font-weight: 700;
+   padding: 10px;
+   margin-bottom: -20px;
+}
+p{
+    font-size: 1px;
+    font-weight: 550;
+    padding-left: 20px;
+    font-family:serif ;
+
+}
+.form2 .inp{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.form2 .inp input{
+    padding: 3px;
+    background-color: rgb(173, 172, 172);
+    width: 120px;
+    border: 0px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 1px;
+    font-weight: 600;
+    margin-bottom: -15px;
+    cursor: pointer;
+}
+
+
